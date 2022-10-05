@@ -1,0 +1,17 @@
+.Counter-container{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(153, 115, 115);
+    color: #e5e5e5;
+    border-radius: 50%;
+}
+button{ 
+    padding: 10px 25px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    color:rgb(153, 115, 115); 
+    font-size: 20px;
+    cursor: pointer;
+}
