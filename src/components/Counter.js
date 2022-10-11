@@ -5,9 +5,12 @@ import './Counter.css';
         number:0
     }
     decrement = () =>{
-        this.setState({
+        if (this.state.number > 0) {
+          this.setState({
             number: -- this.state.number
         })
+        }
+       
     }
     increment = () =>{
         this.setState({
